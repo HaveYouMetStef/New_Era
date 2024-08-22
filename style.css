@@ -1,5 +1,115 @@
-table, th, td {
-    border: 1px solid black;
-    font-family: Arial, sans-serif;
-    text-align: center;
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #000000; /* Black background */
+  color: #FFFFFF; /* White text color */
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #333333; /* Dark gray background */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 5px solid #FF69B4; /* Pink stripe */
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #FF69B4; /* Pink color for a vibrant theme */
+  margin-bottom: 10px;
+}
+
+header aside p {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #FFFFFF; /* White text */
+}
+
+/* Main Section */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Section Styles */
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #444444; /* Lighter dark gray */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+section h2 {
+  font-size: 2rem;
+  color: #FF69B4; /* Pink color */
+  margin-bottom: 20px;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  color: #FFFFFF;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 2px solid #FF69B4; /* Pink color borders */
+}
+
+table th {
+  background-color: #333333;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+}
+
+table td {
+  background-color: #444444;
+  color: #FFFFFF;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #555555; /* Slightly lighter gray for zebra striping */
+}
+
+/* Specific Classes */
+#Roster table th, #Roster table td {
+  text-align: left;
+}
+
+#opponents h2, #touchdown-tracker h2 {
+  margin-top: 0;
+}
+
+#touchdown-tracker table td {
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+      padding: 10px;
   }
+
+  header h1 {
+      font-size: 2.5rem;
+  }
+
+  table th, table td {
+      padding: 8px;
+      font-size: 0.9rem;
+  }
+}
