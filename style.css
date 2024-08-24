@@ -12,9 +12,11 @@ body {
   color: #FFFFFF; /* White text color */
   line-height: 1.6;
   padding: 20px;
+  font-weight: bold;
 }
 
 /* Header Styles */
+
 header {
   background-color: #333333; /* Dark gray background */
   padding: 20px;
