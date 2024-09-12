@@ -65,6 +65,7 @@ table {
   border-collapse: collapse;
   margin: 20px 0;
   color: #FFFFFF;
+  overflow-x: auto;
 }
 
 table th, table td {
@@ -115,4 +116,36 @@ table tbody tr:nth-child(even) {
       padding: 8px;
       font-size: 0.9rem;
   }
+
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+  section {
+    padding: 10px;
+  }
+
+  /* Smaller size screens */
+
+  @media (max-width: 576px) {
+    header h1 {
+      font-size: 2rem;
+    }
+
+    header aside p {
+      font-size: 1rem;
+    }
+
+    table th, table td {
+      padding: 5px;
+      font-size:  0.8rem;
+    }
+    table {
+      display: block;
+      overflow-x: scroll;
+    }
+    
+  }
+  
 }
