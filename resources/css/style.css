@@ -38,6 +38,10 @@ header aside p {
   color: #FFFFFF; /* White text */
 }
 
+.nav-bar  {
+  float: left
+}
+
 /* Main Section */
 main {
   max-width: 1200px;
