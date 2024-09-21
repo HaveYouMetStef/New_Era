@@ -39,8 +39,55 @@ header aside p {
 }
 
 .nav-bar  {
-  float: left
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  font-family: 'Arial', sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
 }
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+.nav-bar li {
+  float: left;
+}
+
+.nav-bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  background-color: #FF69B4;
+}
+
+/* Logo Image */
+.nav-logo {
+  height: 100px;
+  width: auto;
+  margin-right: 20px;
+}
+
+.nav-logo-item {
+  margin-right: auto;
+}
+.nav-logo-item a:hover {
+    background-color: transparent;  /* No hover background for the logo */
+  }
 
 /* Main Section */
 main {
@@ -128,6 +175,19 @@ table tbody tr:nth-child(even) {
   }
   section {
     padding: 10px;
+  }
+  .nav-bar{
+    flex-direction: column;
+  }
+  .nav-bar li {
+    margin-right: 0;
+  }
+  .nav-logo-item {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+  .nav-logo {
+    margin-bottom: 10px;
   }
 
   /* Smaller size screens */
