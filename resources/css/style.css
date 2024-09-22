@@ -20,9 +20,17 @@ body {
 header {
   background-color: #333333; /* Dark gray background */
   padding: 20px;
-  text-align: center;
   border-bottom: 5px solid #FF69B4; /* Pink stripe */
   margin-bottom: 20px;
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header section {
+  width: 100%;
 }
 
 header h1 {
@@ -37,6 +45,7 @@ header aside p {
   font-size: 1.2rem;
   color: #FFFFFF; /* White text */
 }
+
 
 .nav-bar  {
   display: flex;
@@ -153,6 +162,88 @@ table tbody tr:nth-child(even) {
   font-weight: bold;
 }
 
+/* Footer */
+footer {
+  background-color: #333333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* latest news section */
+#latest-news {
+  padding: 20px;
+  background-color: #444444; /* Slightly lighter than the header */
+  color: white;
+  margin: 20px 0;
+  border-bottom: 2px solid #FF69B4; /* Pink color borders */
+
+}
+
+.news-item {
+  margin-bottom: 20px;
+}
+
+.news-item h3 {
+  color: #FF69B4; /* Pink headers */
+}
+
+.news-item p {
+  color: #FFFFFF;
+}
+
+/* Social Media section */
+#social-media {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #FF69B4; /* Pink color borders */
+
+}
+
+#social-media a {
+  margin: 0 10px;
+  color: #FF69B4;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+#social-media a:hover {
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #000000;
+  height: 80vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #FF69B4; /* Pink for vibrancy */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: white;
+  color: #FF69B4;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
   body {
