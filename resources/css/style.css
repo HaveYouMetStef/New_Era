@@ -46,7 +46,61 @@ header aside p {
   color: #FFFFFF; /* White text */
 }
 
+/* Player card section */
+/* Roster Grid */
+.roster-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
 
+.player-card {
+  background-color: #444444; /* Match the color scheme */
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+.player-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.player-card h3 {
+  color: #FF69B4; /* Pink theme */
+  margin-bottom: 5px;
+}
+
+.player-card p {
+  color: #FFFFFF;
+  font-size: 1rem;
+}
+
+.player-card:hover {
+  transform: scale(1.05);
+}
+
+
+.placeholder-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px; 
+  height: 100px;
+  background-color: #FF69B4; 
+  color: #FFFFFF; 
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 50%; 
+  margin: 0 auto 10px;
+}
+
+/* Nav bar Section */
 .nav-bar  {
   display: flex;
   align-items: center;
