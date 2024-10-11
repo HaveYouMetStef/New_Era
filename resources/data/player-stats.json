@@ -1,0 +1,147 @@
+{
+  "players": [
+    {
+      "name": "James Dillion",
+      "position": "LB/Lineman",
+      "number": 18,
+      "stats": {
+        "touchdowns": 2,
+        "extra_points": 2,
+        "points_by_player": 14,
+        "interceptions": 1
+      }
+    },
+    {
+      "name": "Jake Kyte",
+      "position": "LB/Lineman/Captain",
+      "number": 1,
+      "stats": {
+        "touchdowns": 0,
+        "extra_points": 2,
+        "points_by_player": 2,
+        "interceptions": 0
+      }
+    },
+    {
+      "name": "Steve",
+      "position": "LB/WR",
+      "number": "TBD",
+      "stats": {
+        "touchdowns": 2,
+        "extra_points": 1,
+        "points_by_player": 13,
+        "interceptions": 1
+      }
+    },
+    {
+      "name": "Don Rosenthal",
+      "position": "LB/Lineman",
+      "number": 1,
+      "stats": {
+        "touchdowns": 5,
+        "extra_points": 6,
+        "points_by_player": 36,
+        "interceptions": 2
+      }
+    },
+    {
+      "name": "Rez",
+      "position": "DB/WR",
+      "number": "TBD",
+      "stats": {
+        "touchdowns": 1,
+        "extra_points": 3,
+        "points_by_player": 9,
+        "interceptions": 4
+      }
+    },
+    {
+      "name": "Erick",
+      "position": "DB/WR",
+      "number": "TBD",
+      "stats": {
+        "touchdowns": 5,
+        "extra_points": 2,
+        "points_by_player": 34,
+        "interceptions": 2
+      }
+    },
+    {
+      "name": "Kendall",
+      "position": "DB/WR/QB",
+      "number": "TBD",
+      "stats": {
+        "touchdowns": 1,
+        "extra_points": 8,
+        "points_by_player": 14,
+        "interceptions": 3
+      }
+    },
+    {
+      "name": "Mickey P.",
+      "position": "LB/WR/RB",
+      "number": "TBD",
+      "stats": {
+        "touchdowns": 0,
+        "extra_points": 0,
+        "points_by_player": 0,
+        "interceptions": 0
+      }
+    },
+    {
+      "name": "Orlan",
+      "position": "LB/Lineman",
+      "number": "TBD",
+      "stats": {
+        "touchdowns": 0,
+        "extra_points": 0,
+        "points_by_player": 0,
+        "interceptions": 2
+      }
+    },
+    {
+      "name": "Stef Castillo",
+      "position": "Rusher/QB",
+      "number": 5,
+      "stats": {
+        "touchdowns": 6,
+        "extra_points": 4,
+        "points_by_player": 40,
+        "interceptions": 0
+      }
+    },
+    {
+      "name": "Tommy Wagner",
+      "position": "DB/WR",
+      "number": "TBD",
+      "stats": {
+        "touchdowns": 9,
+        "extra_points": 2,
+        "points_by_player": 56,
+        "interceptions": 1
+      }
+    },
+    {
+      "name": "Lorenzo",
+      "position": "Rusher/WR",
+      "number": 17,
+      "stats": {
+        "touchdowns": 3,
+        "extra_points": 2,
+        "points_by_player": 20,
+        "interceptions": 0
+      }
+    },
+    {
+      "name": "Chandler",
+      "position": "DB/WR",
+      "number": "TBD",
+      "stats": {
+        "touchdowns": 1,
+        "extra_points": 0,
+        "points_by_player": 6,
+        "interceptions": 0
+      }
+    }
+  ]
+}

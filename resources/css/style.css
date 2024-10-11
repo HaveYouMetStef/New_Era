@@ -203,13 +203,33 @@ table tbody tr:nth-child(even) {
   background-color: #555555; /* Slightly lighter gray for zebra striping */
 }
 
+/* record section */
+#record {
+  margin-top: 20px;
+  background-color: #444444;
+  color: #FF69B4;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#record h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#record p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 /* Specific Classes */
 #Roster table th, #Roster table td {
   text-align: left;
 }
 
-#opponents h2, #touchdown-tracker h2 {
-  margin-top: 0;
+#schedule h2, #touchdown-tracker h2 {
+  margin-top: 10;
 }
 
 #touchdown-tracker table td {
@@ -235,6 +255,14 @@ footer {
   margin: 20px 0;
   border-bottom: 2px solid #FF69B4; /* Pink color borders */
 
+}
+
+.trophy-photo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .news-item {
