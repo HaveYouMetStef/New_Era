@@ -16,7 +16,129 @@
             <li><a href="stats.html">Stats</a></li>
         </ul>
     </div>
-    <section id="schedule">
+
+    <div id="schedule-seasons">
+        <button class="tablinks" onclick="openSeason(event, 'CurrentSeason')">Current Season</button>
+        <button class="tablinks" onclick="openSeason(event, 'PreviousSeason')">Previous Season</button>
+    </div>
+    
+    <div id="CurrentSeason" class="tabcontent">
+        <h2>Current Season</h2>
+        <!-- Current season schedule will be populated here -->
+         <div id="currentSeasonRecord"></div>
+         <!-- Current record will be populated in this area -->
+        <table id="currentSeasonTable">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Opponent</th>
+                    <th>Score</th>
+                    <th>Result</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Current season schedule will be populated here -->
+            </tbody>
+        </table>
+    </div>
+    
+    <div id="PreviousSeason" class="tabcontent">
+        <h2>Previous Season</h2>
+        <!-- Previous season schedule will be populated here -->
+         <div id="previousSeasonRecord"></div>
+         <!-- Previous record will be populated in this area -->
+        <table id="previousSeasonTable">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Opponent</th>
+                    <th>Score</th>
+                    <th>Result</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Previous season schedule will be populated here -->
+            </tbody>
+        </table>
+    </div>
+    
+
+    <script>
+        // JavaScript to switch between tabs
+        function openSeason(evt, seasonName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(seasonName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+
+
+// <!-- // Fetch the JSON file for each season and populate the corresponding tab -->
+fetch('resources/data/schedule.json')
+  .then(response => response.json())
+  .then(data => {
+    // Populate the current season table
+    const currentSeasonTable = document.querySelector('#currentSeasonTable tbody');
+    data.currentSeason.games.forEach(game => {
+      let gameElement = document.createElement('tr');
+      gameElement.innerHTML = `
+        <td>${game.date}</td>
+        <td>${game.opponent}</td>
+        <td>${game.score}</td>
+        <td>${game.result}</td>
+      `;
+      currentSeasonTable.appendChild(gameElement);
+    });
+
+        // Display current season record
+        const currentSeasonRecord = document.querySelector('#currentSeasonRecord');
+    currentSeasonRecord.innerHTML = `
+      <h3>Season Record</h3>
+      <p>Wins: ${data.currentSeason.seasonRecord.wins} | Losses: ${data.currentSeason.seasonRecord.losses}</p>
+    `;
+
+    // Check if there are any previous season games
+    if (data.previousSeason.games.length > 0) {
+      const previousSeasonTable = document.querySelector('#previousSeasonTable tbody');
+      data.previousSeason.games.forEach(game => {
+        let gameElement = document.createElement('tr');
+        gameElement.innerHTML = `
+          <td>${game.date}</td>
+          <td>${game.opponent}</td>
+          <td>${game.score}</td>
+          <td>${game.result}</td>
+        `;
+        previousSeasonTable.appendChild(gameElement);
+      });
+
+            // Display previous season record
+            const previousSeasonRecord = document.querySelector('#previousSeasonRecord');
+      previousSeasonRecord.innerHTML = `
+        <h3>Season Record</h3>
+        <p>Wins: ${data.previousSeason.seasonRecord.wins} | Losses: ${data.previousSeason.seasonRecord.losses}</p>
+      `;
+    }
+
+  })
+  
+  .catch(error => {
+    console.error('Error fetching the JSON file:', error);
+  });
+
+</script>
+<!-- "date": "2024-08-27",
+"opponent": "The Machine",
+"score": "35 - 18",
+"result": "Win" -->
+
+    <!-- <section id="schedule">
         <table>
             <thead>
                 <th scope="col">Date</th>
@@ -86,12 +208,12 @@
             </tbody>
             </table>
 
-            <!-- Record Section -->
+            Record Section
              <section id="record">
                 <h3>Season Record</h3>
                 <p>Overall Record: 9 Wins - 0 Losses</p>
              </section>
-            </section>
+            </section> 
 
     
 </body>
