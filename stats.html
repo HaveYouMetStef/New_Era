@@ -11,7 +11,7 @@
         <ul class="nav-bar">
             <li class="nav-logo-item"><a href="#home>"><img src="resources/images/NEWERALOGO.png" alt="New Era Logo" class="nav-logo"></a></li>
             <li><a href="index.html">Home</a></li>
-            <li><a href="opponents.html">Opponents</a></li>
+            <li><a href="schedule.html">Opponents</a></li>
             <li><a href="roster.html">Roster</a></li>
             <li><a href="stats.html">Stats</a></li>
         </ul>
@@ -19,137 +19,30 @@
 
     <section id="Roster">
         <h2>Player Stats</h2>
-    <table>
-        <thead>
-                <th scope="col">Player Name</th>
-                <th scope="col">Position</th>
-                <th scope="col">#</th>
-                <th scope="col">Touchdowns</th>
-                <th scope="col">Extra Points</th>
-                <th scope="col">Points by Player</th>
-                <th scope="col">Interceptions</th>
-        </thead>
-                <tbody>
-                            <tr>
-                                <td>James Dillon</td>
-                                <td>LB/Lineman</td>
-                                <td>18</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>Jake Kyte</td>
-                                <td>LB/Lineman/Captain</td>
-                                <td>1</td> 
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>Steve</td>
-                                <td>LB/WR</td>
-                                <td>TBD</td> 
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>Don Rosenthal</td>
-                                <td>LB/Lineman</td>
-                                <td>1</td> 
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            <tr>
-                                <td>Rez</td>
-                                <td>DB/WR</td>
-                                <td>TBD</td> 
-                                <td></td> 
-                                <td></td> 
-                                <td></td> 
-                                <td></td> 
-                            </tr>
-                            <tr>
-                                <td>Erick</td>
-                                <td>DB/WR</td>
-                                <td>TBD</td> 
-                                <td></td> 
-                                <td></td> 
-                                <td></td> 
-                                <td></td> 
-                            </tr>
-                            <tr>
-                                <td>Kendall</td>
-                                <td>DB/WR/QB</td>
-                                <td>TBD</td> 
-                                <td></td> 
-                                <td></td> 
-                                <td></td> 
-                                <td></td> 
-                            </tr>
-                            <tr>
-                                <td>Mickey P.</td>
-                                <td>LB/WR/RB</td>
-                                <td>TBD</td> 
-                                <td></td> 
-                                <td></td> 
-                                <td></td> 
-                                <td></td> 
-                            </tr>
-                            <tr>
-                                <td>Orlan</td>
-                                <td>LB/Lineman</td>
-                                <td>TBD</td> 
-                                <td></td> 
-                                <td></td> 
-                                <td></td> 
-                                <td></td> 
-                            </tr>
-                            <tr>
-                                <td>Stef Castillo</td>
-                                <td>Rusher/QB</td>
-                                <td></td> 
-                                <td></td> 
-                                <td></td> 
-                                <td></td> 
-                                <td></td> 
-                            </tr>
-                            <tr>
-                                <td>Tommy Wagner</td>
-                                <td>DB/WR</td>
-                                <td>TBD</td> 
-                                <td></td> 
-                                <td></td> 
-                                <td></td> 
-                                <td></td> 
-                            </tr>
-                            <tr>
-                                <td>Lorenzo</td>
-                                <td>Rusher/WR</td>
-                                <td>17</td> 
-                                <td></td> 
-                                <td></td> 
-                                <td></td> 
-                                <td></td> 
-                            </tr>
-                            <tr> 
-                                <td>Chandler</td>
-                                <td>DB/WR</td>
-                                <td>TBD</td> 
-                                <td></td> 
-                                <td></td> 
-                                <td></td> 
-                                <td></td> 
-                            </tr>
-            
-                </tbody>
-    </table>
-</section>
+        <label for="season-select">Select Season:</label>
+        <select id="season-select">
+            <option value="fall_2024">Fall 2024</option>
+            <option value="summer_2024">Summer 2024</option>
+        </select>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Player Name</th>
+                    <th>Position</th>
+                    <th>#</th>
+                    <th>Touchdowns</th>
+                    <th>Extra Points</th>
+                    <th>Points by Player</th>
+                    <th>Interceptions</th>
+                </tr>
+            </thead>
+            <tbody id="player-stats-body">
+                <!-- Rows will appear from JSON file -->
+            </tbody>
+        </table>
+    </section>
+
     <section id="touchdown-tracker">
         <h2>Passing Touchdowns</h2>
         <table>
@@ -159,17 +52,85 @@
                     <th>Touchdowns</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td>Stef</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Kendall</td>
-                    <td></td>
-                </tr>
+            <tbody id="passing-touchdowns-body">
+                <!-- Rows will be populated from JSON file here -->
             </tbody>
         </table>
     </section>
+
+    <!-- JavaScript piece -->
+
+    <script>
+        // Get references to elements
+        const seasonSelect = document.getElementById('season-select');
+        const playerStatsBody = document.getElementById('player-stats-body');
+        const passingTouchdownsBody = document.getElementById('passing-touchdowns-body');
+
+        // Function to fetch and display player stats for a selected season
+        function loadPlayerStatsForSeason(season) {
+            fetch('resources/data/player-stats.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Clear the table body before appending new rows
+                    playerStatsBody.innerHTML = '';
+
+                    data.players.forEach(player => {
+                        // Create a row for the player stats of the selected season
+                        const playerRow = document.createElement('tr');
+                        const seasonData = player.stats[season];
+                        if (seasonData) {
+                            playerRow.innerHTML = `
+                                <td>${player.name}</td>
+                                <td>${player.position}</td>
+                                <td>${player.number}</td>
+                                <td>${seasonData.touchdowns}</td>
+                                <td>${seasonData.extra_points}</td>
+                                <td>${seasonData.points_by_player}</td>
+                                <td>${seasonData.interceptions}</td>
+                            `;
+                            playerStatsBody.appendChild(playerRow);
+                        }
+                    });
+                })
+                .catch(error => console.error('Error loading player stats:', error));
+        }
+
+        // Function to fetch and display passing touchdowns for a selected season
+        function loadPassingTouchdownsForSeason(season) {
+            fetch('resources/data/passing-touchdown-stats.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Clear the table body before appending new rows
+                    passingTouchdownsBody.innerHTML = '';
+
+                    data.passing_touchdowns.forEach(player => {
+                        const seasonData = player.seasons[season];
+                        if (seasonData) {
+                            const tr = document.createElement('tr');
+                            tr.innerHTML = `
+                                <td>${player.name}</td>
+                                <td>${seasonData.touchdowns}</td>
+                            `;
+                            passingTouchdownsBody.appendChild(tr);
+                        }
+                    });
+                })
+                .catch(error => console.error('Error loading passing touchdowns:', error));
+        }
+
+        // Initial load for the default selected season
+        document.addEventListener('DOMContentLoaded', () => {
+            const defaultSeason = seasonSelect.value;
+            loadPlayerStatsForSeason(defaultSeason);
+            loadPassingTouchdownsForSeason(defaultSeason);
+        });
+
+        // Update stats when the user selects a different season
+        seasonSelect.addEventListener('change', (event) => {
+            const selectedSeason = event.target.value;
+            loadPlayerStatsForSeason(selectedSeason);
+            loadPassingTouchdownsForSeason(selectedSeason);
+        });
+    </script>
 </body>
 </html>

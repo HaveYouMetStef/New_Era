@@ -5,143 +5,247 @@
       "position": "LB/Lineman",
       "number": 18,
       "stats": {
+        "summer_2024": {
         "touchdowns": 2,
         "extra_points": 2,
         "points_by_player": 14,
         "interceptions": 1
+      }, 
+      "fall_2024": {
+        "touchdowns": "",
+        "extra_points": "",
+        "points_by_player": "",
+        "interceptions": ""
       }
-    },
+    }
+  },
     {
       "name": "Jake Kyte",
       "position": "LB/Lineman/Captain",
       "number": 1,
       "stats": {
+        "summer_2024": {
         "touchdowns": 0,
         "extra_points": 2,
         "points_by_player": 2,
         "interceptions": 0
+      }, 
+      "fall_2024": {
+        "touchdowns": "",
+        "extra_points": "",
+        "points_by_player": "",
+        "interceptions": ""
       }
-    },
+    }
+  },
     {
       "name": "Steve",
       "position": "LB/WR",
       "number": "TBD",
       "stats": {
+        "summer_2024": {
         "touchdowns": 2,
         "extra_points": 1,
         "points_by_player": 13,
         "interceptions": 1
+      }, 
+      "fall_2024": {
+        "touchdowns": "",
+        "extra_points": "",
+        "points_by_player": "",
+        "interceptions": ""
       }
-    },
+    }
+  },
     {
       "name": "Don Rosenthal",
       "position": "LB/Lineman",
       "number": 1,
       "stats": {
+        "summer_2024": {
         "touchdowns": 5,
         "extra_points": 6,
         "points_by_player": 36,
         "interceptions": 2
+      }, 
+      "fall_2024": {
+        "touchdowns": "",
+        "extra_points": "",
+        "points_by_player": "",
+        "interceptions": ""
       }
-    },
+    }
+  },
     {
       "name": "Rez",
       "position": "DB/WR",
       "number": "TBD",
       "stats": {
+        "summer_2024": {
         "touchdowns": 1,
         "extra_points": 3,
         "points_by_player": 9,
         "interceptions": 4
+      }, 
+      "fall_2024": {
+        "touchdowns": "",
+        "extra_points": "",
+        "points_by_player": "",
+        "interceptions": ""
       }
-    },
+    }
+  },
     {
       "name": "Erick",
       "position": "DB/WR",
       "number": "TBD",
       "stats": {
+        "summer_2024": {
         "touchdowns": 5,
         "extra_points": 2,
         "points_by_player": 34,
         "interceptions": 2
+      }, 
+      "fall_2024": {
+        "touchdowns": "",
+        "extra_points": "",
+        "points_by_player": "",
+        "interceptions": ""
       }
-    },
+    }
+  },
     {
       "name": "Kendall",
       "position": "DB/WR/QB",
       "number": "TBD",
       "stats": {
+        "summer_2024": {
         "touchdowns": 1,
         "extra_points": 8,
         "points_by_player": 14,
         "interceptions": 3
+      }, 
+      "fall_2024": {
+        "touchdowns": "",
+        "extra_points": "",
+        "points_by_player": "",
+        "interceptions": ""
       }
-    },
+    }
+  },
     {
       "name": "Mickey P.",
       "position": "LB/WR/RB",
       "number": "TBD",
       "stats": {
+        "summer_2024": {
         "touchdowns": 0,
         "extra_points": 0,
         "points_by_player": 0,
         "interceptions": 0
+      }, 
+      "fall_2024": {
+        "touchdowns": "",
+        "extra_points": "",
+        "points_by_player": "",
+        "interceptions": ""
       }
-    },
+    }
+  },
     {
       "name": "Orlan",
       "position": "LB/Lineman",
       "number": "TBD",
       "stats": {
+        "summer_2024": {
         "touchdowns": 0,
         "extra_points": 0,
         "points_by_player": 0,
         "interceptions": 2
+      }, 
+      "fall_2024": {
+        "touchdowns": "",
+        "extra_points": "",
+        "points_by_player": "",
+        "interceptions": ""
       }
-    },
+    }
+  },
     {
       "name": "Stef Castillo",
       "position": "Rusher/QB",
       "number": 5,
       "stats": {
+        "summer_2024": {
         "touchdowns": 6,
         "extra_points": 4,
         "points_by_player": 40,
         "interceptions": 0
+      }, 
+      "fall_2024": {
+        "touchdowns": "",
+        "extra_points": "",
+        "points_by_player": "",
+        "interceptions": ""
       }
-    },
+    }
+  },
     {
       "name": "Tommy Wagner",
       "position": "DB/WR",
       "number": "TBD",
       "stats": {
+        "summer_2024": {
         "touchdowns": 9,
         "extra_points": 2,
         "points_by_player": 56,
         "interceptions": 1
+      }, 
+      "fall_2024": {
+        "touchdowns": "",
+        "extra_points": "",
+        "points_by_player": "",
+        "interceptions": ""
       }
-    },
+    }
+  },
     {
       "name": "Lorenzo",
       "position": "Rusher/WR",
       "number": 17,
       "stats": {
+        "summer_2024": {
         "touchdowns": 3,
         "extra_points": 2,
         "points_by_player": 20,
         "interceptions": 0
+      }, 
+      "fall_2024": {
+        "touchdowns": "",
+        "extra_points": "",
+        "points_by_player": "",
+        "interceptions": ""
       }
-    },
+    }
+  },
     {
       "name": "Chandler",
       "position": "DB/WR",
       "number": "TBD",
       "stats": {
+        "summer_2024": {
         "touchdowns": 1,
         "extra_points": 0,
         "points_by_player": 6,
         "interceptions": 0
+      }, 
+      "fall_2024": {
+        "touchdowns": "",
+        "extra_points": "",
+        "points_by_player": "",
+        "interceptions": ""
       }
     }
+  }
   ]
 }

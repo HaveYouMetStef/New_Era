@@ -1,12 +1,18 @@
 {
   "passing_touchdowns": [
     {
-      "name": "Stef",
-      "touchdowns": 22
-    },
-    {
-      "name": "Kendall",
-      "touchdowns": 5
+      "name": "Stef Castillo",
+      "seasons": {
+        "summer_2024": {"touchdowns": 22},
+        "fall_2024": {"touchdowns": 0 }
     }
+  },
+    {
+      "name": "Kendall Bell",
+      "seasons": {
+        "summer_2024" : {"touchdowns": 5 },
+        "fall_2024": {"touchdowns": 0 }
+    }
+  }
   ]
 }
