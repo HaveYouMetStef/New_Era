@@ -12,10 +12,10 @@
         "interceptions": 1
       }, 
       "fall_2024": {
-        "touchdowns": "",
-        "extra_points": "",
-        "points_by_player": "",
-        "interceptions": ""
+        "touchdowns": "0",
+        "extra_points": "0",
+        "points_by_player": "0",
+        "interceptions": "0"
       }
     }
   },
@@ -31,15 +31,15 @@
         "interceptions": 0
       }, 
       "fall_2024": {
-        "touchdowns": "",
-        "extra_points": "",
-        "points_by_player": "",
-        "interceptions": ""
+        "touchdowns": "0",
+        "extra_points": "0",
+        "points_by_player": "0",
+        "interceptions": "0"
       }
     }
   },
     {
-      "name": "Steve",
+      "name": "Steve Blackhart",
       "position": "LB/WR",
       "number": "TBD",
       "stats": {
@@ -50,10 +50,10 @@
         "interceptions": 1
       }, 
       "fall_2024": {
-        "touchdowns": "",
-        "extra_points": "",
-        "points_by_player": "",
-        "interceptions": ""
+        "touchdowns": "0",
+        "extra_points": "0",
+        "points_by_player": "0",
+        "interceptions": "0"
       }
     }
   },
@@ -69,15 +69,15 @@
         "interceptions": 2
       }, 
       "fall_2024": {
-        "touchdowns": "",
-        "extra_points": "",
-        "points_by_player": "",
-        "interceptions": ""
+        "touchdowns": "2",
+        "extra_points": "0",
+        "points_by_player": "12",
+        "interceptions": "0"
       }
     }
   },
     {
-      "name": "Rez",
+      "name": "Rezzin Pullum",
       "position": "DB/WR",
       "number": "TBD",
       "stats": {
@@ -88,15 +88,15 @@
         "interceptions": 4
       }, 
       "fall_2024": {
-        "touchdowns": "",
-        "extra_points": "",
-        "points_by_player": "",
-        "interceptions": ""
+        "touchdowns": "0",
+        "extra_points": "0",
+        "points_by_player": "0",
+        "interceptions": "0"
       }
     }
   },
     {
-      "name": "Erick",
+      "name": "Erick White",
       "position": "DB/WR",
       "number": "TBD",
       "stats": {
@@ -107,15 +107,15 @@
         "interceptions": 2
       }, 
       "fall_2024": {
-        "touchdowns": "",
-        "extra_points": "",
-        "points_by_player": "",
-        "interceptions": ""
+        "touchdowns": "0",
+        "extra_points": "1",
+        "points_by_player": "1",
+        "interceptions": "0"
       }
     }
   },
     {
-      "name": "Kendall",
+      "name": "Kendall Bell",
       "position": "DB/WR/QB",
       "number": "TBD",
       "stats": {
@@ -126,15 +126,15 @@
         "interceptions": 3
       }, 
       "fall_2024": {
-        "touchdowns": "",
-        "extra_points": "",
-        "points_by_player": "",
-        "interceptions": ""
+        "touchdowns": "0",
+        "extra_points": "0",
+        "points_by_player": "0",
+        "interceptions": "0"
       }
     }
   },
     {
-      "name": "Mickey P.",
+      "name": "Mickey Plancher",
       "position": "LB/WR/RB",
       "number": "TBD",
       "stats": {
@@ -145,15 +145,41 @@
         "interceptions": 0
       }, 
       "fall_2024": {
-        "touchdowns": "",
-        "extra_points": "",
-        "points_by_player": "",
-        "interceptions": ""
+        "touchdowns": "0",
+        "extra_points": "0",
+        "points_by_player": "0",
+        "interceptions": "0"
       }
     }
   },
+  {
+    "name": "Tupac Plancher",
+    "position": "Rusher/Lineman",
+    "number": "TBD",
+    "stats": {
+    "fall_2024": {
+      "touchdowns": "0",
+      "extra_points": "0",
+      "points_by_player": "0",
+      "interceptions": "0"
+    }
+  }
+},
+{
+  "name": "Andy Boileau",
+  "position": "Rusher/WR",
+  "number": "TBD",
+  "stats": {
+  "fall_2024": {
+    "touchdowns": "0",
+    "extra_points": "0",
+    "points_by_player": "0",
+    "interceptions": "0"
+  }
+}
+},
     {
-      "name": "Orlan",
+      "name": "Orlan Elizarraraz",
       "position": "LB/Lineman",
       "number": "TBD",
       "stats": {
@@ -164,10 +190,10 @@
         "interceptions": 2
       }, 
       "fall_2024": {
-        "touchdowns": "",
-        "extra_points": "",
-        "points_by_player": "",
-        "interceptions": ""
+        "touchdowns": "0",
+        "extra_points": "0",
+        "points_by_player": "0",
+        "interceptions": "0"
       }
     }
   },
@@ -183,10 +209,10 @@
         "interceptions": 0
       }, 
       "fall_2024": {
-        "touchdowns": "",
-        "extra_points": "",
-        "points_by_player": "",
-        "interceptions": ""
+        "touchdowns": "2",
+        "extra_points": "0",
+        "points_by_player": "12",
+        "interceptions": "0"
       }
     }
   },
@@ -202,15 +228,15 @@
         "interceptions": 1
       }, 
       "fall_2024": {
-        "touchdowns": "",
-        "extra_points": "",
-        "points_by_player": "",
-        "interceptions": ""
+        "touchdowns": "0",
+        "extra_points": "0",
+        "points_by_player": "0",
+        "interceptions": "0"
       }
     }
   },
     {
-      "name": "Lorenzo",
+      "name": "Lorenzo Landry",
       "position": "Rusher/WR",
       "number": 17,
       "stats": {
@@ -221,15 +247,15 @@
         "interceptions": 0
       }, 
       "fall_2024": {
-        "touchdowns": "",
-        "extra_points": "",
-        "points_by_player": "",
-        "interceptions": ""
+        "touchdowns": "1",
+        "extra_points": "0",
+        "points_by_player": "6",
+        "interceptions": "0"
       }
     }
   },
     {
-      "name": "Chandler",
+      "name": "Chandler Barnard",
       "position": "DB/WR",
       "number": "TBD",
       "stats": {
@@ -240,10 +266,10 @@
         "interceptions": 0
       }, 
       "fall_2024": {
-        "touchdowns": "",
-        "extra_points": "",
-        "points_by_player": "",
-        "interceptions": ""
+        "touchdowns": "0",
+        "extra_points": "1",
+        "points_by_player": "1",
+        "interceptions": "0"
       }
     }
   }

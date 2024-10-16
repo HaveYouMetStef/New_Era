@@ -4,14 +4,14 @@
     {
       "date": "2024-10-15",
       "opponent": "No Fly Zone",
-      "score": "0 - 0",
-      "result": ""
+      "score": "8 - 6",
+      "result": "Loss"
     },
     {
       "date": "2024-10-15",
       "opponent": "Suckin on TDs",
-      "score": "0 - 0",
-      "result": ""
+      "score": "30 - 0",
+      "result": "Win"
     },
     {
       "date": "2024-10-29",
@@ -46,8 +46,8 @@
 
   ],
   "seasonRecord": {
-      "wins": 0,
-      "losses": 0
+      "wins": 1,
+      "losses": 1
     }
   },
   "previousSeason": {
