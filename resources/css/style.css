@@ -15,6 +15,48 @@ body {
   font-weight: bold;
 }
 
+/* Progress bar section */
+#season-progress {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333333; /* Light background to separate section */
+  margin-top: 20px;
+}
+
+#season-progress h3 {
+  font-size: 1.5rem;
+  color: #FF69B4;
+  margin-bottom: 10px;
+}
+
+.progress-container {
+  background-color: #ddd;
+  border-radius: 20px;
+  height: 30px;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar {
+  background-color: #FF69B4; /* Pink theme color */
+  height: 100%;
+  width: 50%; /* Update width dynamically with JavaScript */
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  font-weight: bold;
+  transition: width 0.4s ease;
+}
+
+.progress-text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: #FF69B4;
+}
+
 /* Header Styles */
 
 header {
