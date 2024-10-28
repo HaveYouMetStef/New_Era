@@ -40,14 +40,15 @@ body {
 }
 
 .progress-bar {
-  background-color: #FF69B4; /* Pink theme color */
+  background: linear-gradient(90deg, #FF69B4, #FFD700); /* Pink to Gold gradient */
   height: 100%;
-  width: 50%; /* Update width dynamically with JavaScript */
+  width: 0; /* Start with width 0 to animate the fill */
   text-align: center;
   line-height: 30px;
   color: white;
   font-weight: bold;
   transition: width 0.4s ease;
+  animation: fillAnimation 2s forwards; /* Trigger the animation */
 }
 
 .progress-text {
@@ -404,6 +405,7 @@ footer {
   .nav-logo {
     margin-bottom: 10px;
   }
+  
 
   /* Smaller size screens */
 
@@ -426,5 +428,24 @@ footer {
     }
     
   }
+
+  .progress-container {
+    flex-direction: column; /* Stack text below the bar */
+}
+
+.progress-text {
+  display: none;
+    margin-left: 0;
+    margin-top: 10px; /* Space between bar and text */
+    font-size: 0.9rem; /* Slightly smaller text for readability */
+}
   
 }
+
+/* animations */
+@keyframes fillAnimation {
+  0% {
+    width: 0;
+  }
+}
+

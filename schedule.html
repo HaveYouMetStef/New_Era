@@ -18,16 +18,16 @@
     </div>
 
     <div id="schedule-seasons">
-        <button class="tablinks" onclick="openSeason(event, 'CurrentSeason')">Fall 2024</button>
-        <button class="tablinks" onclick="openSeason(event, 'PreviousSeason')">Summer 2024</button>
+        <label for="season-select">Select Season:</label>
+        <select id="season-select">
+            <!-- Season options will be dynamically populated here -->
+        </select>
     </div>
     
-    <div id="CurrentSeason" class="tabcontent">
-        <h2>Current Season</h2>
-        <!-- Current season schedule will be populated here -->
-         <div id="currentSeasonRecord"></div>
-         <!-- Current record will be populated in this area -->
-        <table id="currentSeasonTable">
+    <div id="season-content">
+        <!-- Season schedule will be displayed here based on selected season -->
+        <div id="seasonRecord"></div>
+        <table id="seasonTable">
             <thead>
                 <tr>
                     <th>Date</th>
@@ -37,184 +37,75 @@
                 </tr>
             </thead>
             <tbody>
-                <!-- Current season schedule will be populated here -->
+                <!-- Games for selected season will be populated here -->
             </tbody>
         </table>
     </div>
     
-    <div id="PreviousSeason" class="tabcontent">
-        <h2>Previous Season</h2>
-        <!-- Previous season schedule will be populated here -->
-         <div id="previousSeasonRecord"></div>
-         <!-- Previous record will be populated in this area -->
-        <table id="previousSeasonTable">
-            <thead>
-                <tr>
-                    <th>Date</th>
-                    <th>Opponent</th>
-                    <th>Score</th>
-                    <th>Result</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Previous season schedule will be populated here -->
-            </tbody>
-        </table>
-    </div>
-    
+<script>
 
-    <script>
-        // JavaScript to switch between tabs
-        function openSeason(evt, seasonName) {
-          var i, tabcontent, tablinks;
-          tabcontent = document.getElementsByClassName("tabcontent");
-          for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-          }
-          tablinks = document.getElementsByClassName("tablinks");
-          for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-          }
-          document.getElementById(seasonName).style.display = "block";
-          evt.currentTarget.className += " active";
+fetch('resources/data/schedule.json')
+    .then(response => response.json())
+    .then(data => {
+        const seasonSelect = document.getElementById('season-select');
+        const seasonContent = document.getElementById('season-content');
+        const seasonRecord = document.getElementById('seasonRecord');
+        const seasonTableBody = document.querySelector('#seasonTable tbody');
+
+        //Populate dropdown options
+        // Object.keys(data).forEach(seasonKey => {
+        //     const option = document.createElement('option');
+        //     option.value = seasonKey;
+        //     option.textContent = data[seasonKey].seasonName; //Assumes the season name 
+        //     seasonSelect.appendChild(option);
+        // });
+
+        for(const season in data) {
+            const option = document.createElement('option');
+            option.value = season;
+            option.textContent = season.replace(/ /g, ' ');
+            seasonSelect.appendChild(option);
         }
 
+        // Display initial season's data (first season in the JSON)
+        loadSeasonData(seasonSelect.value);
 
-// <!-- // Fetch the JSON file for each season and populate the corresponding tab -->
-fetch('resources/data/schedule.json')
-  .then(response => response.json())
-  .then(data => {
-    // Populate the current season table
-    const currentSeasonTable = document.querySelector('#currentSeasonTable tbody');
-    data.currentSeason.games.forEach(game => {
-      let gameElement = document.createElement('tr');
-      gameElement.innerHTML = `
-        <td>${game.date}</td>
-        <td>${game.opponent}</td>
-        <td>${game.score}</td>
-        <td>${game.result}</td>
-      `;
-      currentSeasonTable.appendChild(gameElement);
+        //event listener for dropdown change
+        seasonSelect.addEventListener('change', () => {
+            loadSeasonData(seasonSelect.value);
+        });
+
+        function loadSeasonData(seasonKey) {
+            const seasonData = data[seasonKey];
+            seasonTableBody.innerHTML = ''; //clear table
+            seasonRecord.innerHTML = ''; //clear record
+
+            //populate games table
+            seasonData.games.forEach(game => {
+                let gameRow = document.createElement('tr');
+                gameRow.innerHTML = `
+                <td>${game.date}</td>
+                <td>${game.opponent}</td>
+                <td>${game.score}</td>
+                <td>${game.result}</td>
+                `;
+                seasonTableBody.appendChild(gameRow);
+            });
+
+            //Display season record
+            seasonRecord.innerHTML = `
+            <h3>Season Record</h3>
+            <p>Wins: ${seasonData.seasonRecord.wins} | Losses: ${seasonData.seasonRecord.losses}</p>
+            `;
+        }
+
+    })
+    .catch(error => {
+        console.error('Error fetching JSON file:', error);
     });
 
-        // Display current season record
-        const currentSeasonRecord = document.querySelector('#currentSeasonRecord');
-    currentSeasonRecord.innerHTML = `
-      <h3>Season Record</h3>
-      <p>Wins: ${data.currentSeason.seasonRecord.wins} | Losses: ${data.currentSeason.seasonRecord.losses}</p>
-    `;
-
-    // Check if there are any previous season games
-    if (data.previousSeason.games.length > 0) {
-      const previousSeasonTable = document.querySelector('#previousSeasonTable tbody');
-      data.previousSeason.games.forEach(game => {
-        let gameElement = document.createElement('tr');
-        gameElement.innerHTML = `
-          <td>${game.date}</td>
-          <td>${game.opponent}</td>
-          <td>${game.score}</td>
-          <td>${game.result}</td>
-        `;
-        previousSeasonTable.appendChild(gameElement);
-      });
-
-            // Display previous season record
-            const previousSeasonRecord = document.querySelector('#previousSeasonRecord');
-      previousSeasonRecord.innerHTML = `
-        <h3>Season Record</h3>
-        <p>Wins: ${data.previousSeason.seasonRecord.wins} | Losses: ${data.previousSeason.seasonRecord.losses}</p>
-      `;
-    }
-
-  })
-  
-  .catch(error => {
-    console.error('Error fetching the JSON file:', error);
-  });
-
-</script>
-<!-- "date": "2024-08-27",
-"opponent": "The Machine",
-"score": "35 - 18",
-"result": "Win" -->
-
-    <!-- <section id="schedule">
-        <table>
-            <thead>
-                <th scope="col">Date</th>
-                <th scope="col">Opponent</th>
-                <th scope="col">Score</th>
-                <th scope="col">Result</th>
-            </thead>
-
-            <tbody>
-                
-                    <h2>Opponents</h2>
-                <tr>
-                    <td>8/13/2024</td>
-                    <td>Vibe Raiders</td> 
-                    <td>21 - 12</td>
-                    <td>Win</td>
-                </tr>
-                <tr>
-                    <td>8/20/2024</td>
-                    <td>Curry Munchers</td> 
-                    <td>34 - 6</td>
-                    <td>Win</td>
-                </tr>
-                <tr>
-                    <td>8/27/2024</td>
-                    <td>The Machine</td> 
-                    <td>35 - 18</td>
-                    <td>Win</td>
-                </tr>
-                <tr>
-                    <td>9/10/2024</td>
-                    <td>Rampage</td> 
-                    <td>33 - 20</td>
-                    <td>Win</td>
-                </tr>
-                <tr>
-                    <td>9/17/2024</td>
-                    <td>The Machine</td> 
-                    <td>21 - 0</td>
-                    <td>Win*</td>
-                </tr>
-                <tr>
-                    <td>9/24/2024</td>
-                    <td>No Fly Zone</td> 
-                    <td>26 - 6</td>
-                    <td>Win</td>
-                </tr>
-                <tr>
-                    <td>9/24/2024</td>
-                    <td>Here For The Cardio</td> 
-                    <td>39 - 6</td>
-                    <td>Win</td>
-                </tr>
-                <tr>
-                    <td>10/1/2024</td>
-                    <td>The Machine</td> 
-                    <td>35 - 7</td>
-                    <td>Win</td>
-                </tr>
-                <tr>
-                    <td>10/1/2024</td>
-                    <td>No Fly Zone</td> 
-                    <td>25 - 15</td>
-                    <td>Win</td>
-                </tr>
-
-            </tbody>
-            </table>
-
-            Record Section
-             <section id="record">
-                <h3>Season Record</h3>
-                <p>Overall Record: 9 Wins - 0 Losses</p>
-             </section>
-            </section> 
-
     
+</script>
+
 </body>
 </html>

@@ -15,6 +15,7 @@ const updateProgressBar = (gamesPlayed) => {
     const progressPercentage = (gamesPlayed / totalGames) * 100;
     progressBar.style.width = `${progressPercentage}%`; // Adjust the width of the bar
     progressText.innerText = `${gamesPlayed} of ${totalGames} Games Played`; // Update text inside the bar
+    
 }
 
 // Initialize progress on page load
@@ -34,3 +35,4 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Error fetching schedule:', error));
 });
+document.querySelector('.progress-bar').style.width = "50%"; // Replace with dynamic width
