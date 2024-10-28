@@ -405,6 +405,7 @@ footer {
   .nav-logo {
     margin-bottom: 10px;
   }
+}
   
 
   /* Smaller size screens */
@@ -427,20 +428,17 @@ footer {
       overflow-x: scroll;
     }
     
-  }
-
-  .progress-container {
+    .progress-container {
     flex-direction: column; /* Stack text below the bar */
+  }
+    .progress-text {
+      display: none;
+      margin-left: 0;
+      margin-top: 10px; /* Space between bar and text */
+      font-size: 0.9rem; /* Slightly smaller text for readability */
+  }
 }
 
-.progress-text {
-  display: none;
-    margin-left: 0;
-    margin-top: 10px; /* Space between bar and text */
-    font-size: 0.9rem; /* Slightly smaller text for readability */
-}
-  
-}
 
 /* animations */
 @keyframes fillAnimation {
@@ -448,4 +446,3 @@ footer {
     width: 0;
   }
 }
-

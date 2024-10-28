@@ -14,9 +14,10 @@ const gamesPlayed = 2; // Update this variable weekly or make it dynamically fet
 const updateProgressBar = (gamesPlayed) => {
     const progressPercentage = (gamesPlayed / totalGames) * 100;
     progressBar.style.width = `${progressPercentage}%`; // Adjust the width of the bar
-    progressText.innerText = `${gamesPlayed} of ${totalGames} Games Played`; // Update text inside the bar
-    
+    progressText.innerText = `${gamesPlayed} of ${totalGames} Games Played`; // Update text inside the bar    
+    // console.log(progressPercentage)
 }
+// console.log(totalGames)
 
 // Initialize progress on page load
 document.addEventListener('DOMContentLoaded', () => {
@@ -25,14 +26,14 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => {
             console.log("Fetched data:", data); // Log the fetched data structure
-            if (!data.currentSeason || !data.currentSeason.games) throw new Error("Games data not found in JSON.");
+            if (!data.Fall2024 || !data.Fall2024.games) throw new Error("Games data not found in JSON.");
 
             // Filter games that are marked as completed
-            const gamesPlayed = data.currentSeason.games.filter(game => game.result !== "upcoming").length;
+            const gamesPlayed = data.Fall2024.games.filter(game => game.result !== "upcoming").length;
 
             // Call function to update the progress bar
             updateProgressBar(gamesPlayed);
         })
         .catch(error => console.error('Error fetching schedule:', error));
 });
-document.querySelector('.progress-bar').style.width = "50%"; // Replace with dynamic width
+// document.querySelector('.progress-bar').style.width = "50%"; // Replace with dynamic width

@@ -52,14 +52,6 @@ fetch('resources/data/schedule.json')
         const seasonRecord = document.getElementById('seasonRecord');
         const seasonTableBody = document.querySelector('#seasonTable tbody');
 
-        //Populate dropdown options
-        // Object.keys(data).forEach(seasonKey => {
-        //     const option = document.createElement('option');
-        //     option.value = seasonKey;
-        //     option.textContent = data[seasonKey].seasonName; //Assumes the season name 
-        //     seasonSelect.appendChild(option);
-        // });
-
         for(const season in data) {
             const option = document.createElement('option');
             option.value = season;
