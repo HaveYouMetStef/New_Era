@@ -299,6 +299,10 @@ footer {
   border-bottom: 2px solid #FF69B4; /* Pink color borders */
 
 }
+#latest-news li {
+  margin-left: 30px;
+  padding: 5px;
+}
 
 .trophy-photo {
   max-width: 100%;
