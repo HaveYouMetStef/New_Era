@@ -22,20 +22,20 @@
     {
       "date": "2024-11-05",
       "opponent": "Vibe Raiders",
-      "score": "0 - 0",
-      "result": "upcoming"
+      "score": "39 - 12",
+      "result": "Win"
     },
     {
       "date": "2024-11-12",
       "opponent": "Mean Machine",
-      "score": "0 - 0",
-      "result": "upcoming"
+      "score": "27 - 0",
+      "result": "Win"
     },
     {
       "date": "2024-11-12",
       "opponent": "Gold Buffalos",
-      "score": "0 - 0",
-      "result": "upcoming"
+      "score": "30 - 0",
+      "result": "Win"
     },
     {
       "date": "2024-11-19",
@@ -46,7 +46,7 @@
 
   ],
   "seasonRecord": {
-      "wins": 2,
+      "wins": 5,
       "losses": 1
     }
   },

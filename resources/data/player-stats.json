@@ -12,10 +12,10 @@
         "interceptions": 1
       }, 
       "fall_2024": {
-        "touchdowns": "1",
+        "touchdowns": "2",
         "extra_points": "0",
-        "points_by_player": "6",
-        "interceptions": "0"
+        "points_by_player": "12",
+        "interceptions": "1"
       }
     }
   },
@@ -50,9 +50,9 @@
         "interceptions": 1
       }, 
       "fall_2024": {
-        "touchdowns": "0",
-        "extra_points": "0",
-        "points_by_player": "0",
+        "touchdowns": "4",
+        "extra_points": "2",
+        "points_by_player": "26",
         "interceptions": "0"
       }
     }
@@ -69,9 +69,9 @@
         "interceptions": 2
       }, 
       "fall_2024": {
-        "touchdowns": "2",
-        "extra_points": "0",
-        "points_by_player": "12",
+        "touchdowns": "3",
+        "extra_points": "5",
+        "points_by_player": "23",
         "interceptions": "1"
       }
     }
@@ -88,7 +88,7 @@
         "interceptions": 4
       }, 
       "fall_2024": {
-        "touchdowns": "0",
+        "touchdowns": "1",
         "extra_points": "0",
         "points_by_player": "0",
         "interceptions": "0"
@@ -107,10 +107,10 @@
         "interceptions": 2
       }, 
       "fall_2024": {
-        "touchdowns": "1",
-        "extra_points": "1",
-        "points_by_player": "7",
-        "interceptions": "0"
+        "touchdowns": "2",
+        "extra_points": "2",
+        "points_by_player": "14",
+        "interceptions": "1"
       }
     }
   },
@@ -209,9 +209,9 @@
         "interceptions": 0
       }, 
       "fall_2024": {
-        "touchdowns": "2",
-        "extra_points": "1",
-        "points_by_player": "13",
+        "touchdowns": "3",
+        "extra_points": "2",
+        "points_by_player": "20",
         "interceptions": "0"
       }
     }
@@ -228,10 +228,10 @@
         "interceptions": 1
       }, 
       "fall_2024": {
-        "touchdowns": "2",
-        "extra_points": "0",
-        "points_by_player": "12",
-        "interceptions": "2"
+        "touchdowns": "4",
+        "extra_points": "1",
+        "points_by_player": "25",
+        "interceptions": "3"
       }
     }
   },
@@ -247,9 +247,9 @@
         "interceptions": 0
       }, 
       "fall_2024": {
-        "touchdowns": "1",
+        "touchdowns": "4",
         "extra_points": "0",
-        "points_by_player": "6",
+        "points_by_player": "24",
         "interceptions": "0"
       }
     }
@@ -267,8 +267,8 @@
       }, 
       "fall_2024": {
         "touchdowns": "0",
-        "extra_points": "1",
-        "points_by_player": "1",
+        "extra_points": "2",
+        "points_by_player": "2",
         "interceptions": "0"
       }
     }
