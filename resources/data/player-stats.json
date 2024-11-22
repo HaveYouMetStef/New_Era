@@ -32,8 +32,8 @@
       }, 
       "fall_2024": {
         "touchdowns": "0",
-        "extra_points": "0",
-        "points_by_player": "0",
+        "extra_points": "1",
+        "points_by_player": "1",
         "interceptions": "0"
       }
     }
@@ -50,9 +50,9 @@
         "interceptions": 1
       }, 
       "fall_2024": {
-        "touchdowns": "4",
-        "extra_points": "2",
-        "points_by_player": "26",
+        "touchdowns": "6",
+        "extra_points": "4",
+        "points_by_player": "40",
         "interceptions": "0"
       }
     }
@@ -110,7 +110,7 @@
         "touchdowns": "2",
         "extra_points": "2",
         "points_by_player": "14",
-        "interceptions": "1"
+        "interceptions": "2"
       }
     }
   },
@@ -171,9 +171,9 @@
   "number": "TBD",
   "stats": {
   "fall_2024": {
-    "touchdowns": "0",
+    "touchdowns": "1",
     "extra_points": "1",
-    "points_by_player": "1",
+    "points_by_player": "7",
     "interceptions": "0"
   }
 }
@@ -209,9 +209,9 @@
         "interceptions": 0
       }, 
       "fall_2024": {
-        "touchdowns": "3",
+        "touchdowns": "4",
         "extra_points": "2",
-        "points_by_player": "20",
+        "points_by_player": "26",
         "interceptions": "0"
       }
     }
@@ -228,10 +228,10 @@
         "interceptions": 1
       }, 
       "fall_2024": {
-        "touchdowns": "4",
+        "touchdowns": "5",
         "extra_points": "1",
-        "points_by_player": "25",
-        "interceptions": "3"
+        "points_by_player": "31",
+        "interceptions": "4"
       }
     }
   },
@@ -247,9 +247,9 @@
         "interceptions": 0
       }, 
       "fall_2024": {
-        "touchdowns": "4",
+        "touchdowns": "5",
         "extra_points": "0",
-        "points_by_player": "24",
+        "points_by_player": "30",
         "interceptions": "0"
       }
     }
@@ -267,8 +267,8 @@
       }, 
       "fall_2024": {
         "touchdowns": "0",
-        "extra_points": "2",
-        "points_by_player": "2",
+        "extra_points": "3",
+        "points_by_player": "3",
         "interceptions": "0"
       }
     }
