@@ -2,106 +2,118 @@
   "Fall2024": {
   "games": [
     {
-      "date": "2024-10-15",
+      "date": "10-15-2024",
       "opponent": "No Fly Zone",
       "score": "7 - 6",
       "result": "Loss"
     },
     {
-      "date": "2024-10-15",
+      "date": "10-15-2024",
       "opponent": "Suckin on TDs",
       "score": "30 - 0",
       "result": "Win"
     },
     {
-      "date": "2024-10-29",
+      "date": "10-29-2024",
       "opponent": "Punt Intended",
       "score": "26 - 7",
       "result": "Win"
     },
     {
-      "date": "2024-11-05",
+      "date": "11-05-2024",
       "opponent": "Vibe Raiders",
       "score": "39 - 12",
       "result": "Win"
     },
     {
-      "date": "2024-11-12",
+      "date": "11-12-2024",
       "opponent": "Mean Machine",
       "score": "27 - 0",
       "result": "Win"
     },
     {
-      "date": "2024-11-12",
+      "date": "11-12-2024",
       "opponent": "Gold Buffalos",
       "score": "30 - 0",
       "result": "Win"
     },
     {
-      "date": "2024-11-19",
+      "date": "11-19-2024",
       "opponent": "Goal Intended",
       "score": "41 - 0",
       "result": "Win"
+    },
+    {
+      "date": "11-26-2024",
+      "opponent": "Good Ol' Boys",
+      "score": "25 - 6",
+      "result": "Win"
+    },
+    {
+      "date": "11-26-2024",
+      "opponent": "No Fly Zone",
+      "score": "27 - 18",
+      "result": "Win"
     }
-
+    
   ],
   "seasonRecord": {
-      "wins": 6,
+      "wins": 8,
       "losses": 1
     }
   },
   "Summer2024": {
     "games": [
       {
-        "date": "2024-08-13",
+        "date": "08-13-2024",
         "opponent": "Vibe Raiders",
         "score": "21 - 12",
         "result": "Win"
       },
       {
-        "date": "2024-08-20",
+        "date": "08-20-2024",
         "opponent": "Curry Munchers",
         "score": "34 - 6",
         "result": "Win"
       },
       {
-        "date": "2024-08-27",
+        "date": "08-27-2024",
         "opponent": "The Machine",
         "score": "35 - 18",
         "result": "Win"
       },
       {
-        "date": "2024-09-10",
+        "date": "09-10-2024",
         "opponent": "Rampage",
         "score": "33 - 20",
         "result": "Win"
       },
       {
-        "date": "2024-09-17",
+        "date": "09-17-2024",
         "opponent": "The Machine",
         "score": "21 - 0",
         "result": "Win"
       },
       {
-        "date": "2024-09-24",
+        "date": "09-24-2024",
         "opponent": "No Fly Zone",
         "score": "26 - 6",
         "result": "Win"
       },
       {
-        "date": "2024-09-24",
+        "date": "09-24-2024",
         "opponent": "Here For The Cardio",
         "score": "39 - 6",
         "result": "Win"
       },
       {
-        "date": "2024-10-01",
+        "date": "10-01-2024",
         "opponent": "The Machine",
         "score": "35 - 7",
         "result": "Win"
       },
       {
-        "date": "2024-10-01",
+        "date": "10-01-2024",
         "opponent": "No Fly Zone",
         "score": "25 - 15",
         "result": "Win"
