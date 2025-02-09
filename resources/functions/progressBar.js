@@ -26,10 +26,10 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => {
             console.log("Fetched data:", data); // Log the fetched data structure
-            if (!data.Fall2024 || !data.Fall2024.games) throw new Error("Games data not found in JSON.");
+            if (!data.Spring2025 || !data.Spring2025.games) throw new Error("Games data not found in JSON.");
 
             // Filter games that are marked as completed
-            const gamesPlayed = data.Fall2024.games.filter(game => game.result !== "upcoming").length;
+            const gamesPlayed = data.Spring2025.games.filter(game => game.result !== "upcoming").length;
 
             // Call function to update the progress bar
             updateProgressBar(gamesPlayed);
