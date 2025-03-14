@@ -68,16 +68,16 @@
           "interceptions": "0"
         },
         "spring_2025": {
-          "touchdowns": "0",
+          "touchdowns": "1",
           "extra_points": "2",
-          "points_by_player": "2",
+          "points_by_player": "8",
           "interceptions": "0"
         }
       }
     },
     {
       "name": "Don Rosenthal",
-      "position": "LB/Lineman",
+      "position": "LB/Tight End",
       "number": 1,
       "stats": {
         "summer_2024": {
@@ -93,9 +93,9 @@
           "interceptions": "1"
         },
         "spring_2025": {
-          "touchdowns": "0",
+          "touchdowns": "1",
           "extra_points": "0",
-          "points_by_player": "0",
+          "points_by_player": "6",
           "interceptions": "0"
         }
       }
@@ -118,9 +118,9 @@
           "interceptions": "0"
         },
         "spring_2025": {
-          "touchdowns": "0",
-          "extra_points": "0",
-          "points_by_player": "0",
+          "touchdowns": "1",
+          "extra_points": "1",
+          "points_by_player": "7",
           "interceptions": "0"
         }
       }
@@ -143,9 +143,9 @@
           "interceptions": "2"
         },
         "spring_2025": {
-          "touchdowns": "1",
+          "touchdowns": "2",
           "extra_points": "1",
-          "points_by_player": "7",
+          "points_by_player": "13",
           "interceptions": "0"
         }
       }
@@ -259,7 +259,7 @@
           "touchdowns": "0",
           "extra_points": "0",
           "points_by_player": "0",
-          "interceptions": "0"
+          "interceptions": "1"
         }
       }
     },
@@ -282,8 +282,8 @@
         },
         "spring_2025": {
           "touchdowns": "0",
-          "extra_points": "0",
-          "points_by_player": "0",
+          "extra_points": "3",
+          "points_by_player": "3",
           "interceptions": "0"
         }
       }
@@ -360,6 +360,19 @@
           "extra_points": "0",
           "points_by_player": "0",
           "interceptions": "0"
+        }
+      }
+    },
+    {
+      "name": "Grayson Levine",
+      "position": "DB/WR",
+      "number": "TBD",
+      "stats": {
+        "spring_2025": {
+          "touchdowns": "0",
+          "extra_points": "0",
+          "points_by_player": "0",
+          "interceptions": "1"
         }
       }
     }
