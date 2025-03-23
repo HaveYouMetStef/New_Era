@@ -15,24 +15,18 @@
         },
         {
             "date": "03-18-2025",
-            "opponent": "Balls Deep",
-            "score": "0-0",
-            "result": "upcoming"
+            "opponent": "Rampage",
+            "score": "40-0",
+            "result": "Win"
         },
         {
             "date": "03-25-2025",
-            "opponent": "Rampage",
+            "opponent": "CTE",
             "score": "0-0",
             "result": "upcoming"
         },
         {
             "date": "04-01-2025",
-            "opponent": "Central Texas Elites (CTE)",
-            "score": "0-0",
-            "result": "upcoming"
-        },
-        {
-            "date": "04-08-2025",
             "opponent": "Auto Drafted",
             "score": "0-0",
             "result": "upcoming"
@@ -42,10 +36,16 @@
             "opponent": "Austin Armadillos",
             "score": "0-0",
             "result": "upcoming"
+        },
+        {
+            "date": "04-16-2025",
+            "opponent": "Balls Deep",
+            "score": "0-0",
+            "result": "upcoming"
         }
     ],
     "seasonRecord": {
-        "wins": 0,
+        "wins": 3,
         "losses": 0
     }
 },
