@@ -22,8 +22,8 @@
         {
             "date": "03-25-2025",
             "opponent": "CTE",
-            "score": "0-0",
-            "result": "upcoming"
+            "score": "39-0",
+            "result": "Win"
         },
         {
             "date": "04-01-2025",
@@ -45,7 +45,7 @@
         }
     ],
     "seasonRecord": {
-        "wins": 3,
+        "wins": 4,
         "losses": 0
     }
 },
