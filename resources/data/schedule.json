@@ -28,8 +28,8 @@
         {
             "date": "04-01-2025",
             "opponent": "Auto Drafted",
-            "score": "0-0",
-            "result": "upcoming"
+            "score": "29-0",
+            "result": "Win"
         },
         {
             "date": "04-08-2025",
@@ -45,7 +45,7 @@
         }
     ],
     "seasonRecord": {
-        "wins": 4,
+        "wins": 5,
         "losses": 0
     }
 },
