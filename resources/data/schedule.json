@@ -34,8 +34,8 @@
         {
             "date": "04-08-2025",
             "opponent": "Austin Armadillos",
-            "score": "0-0",
-            "result": "upcoming"
+            "score": "29-0",
+            "result": "Win"
         },
         {
             "date": "04-16-2025",
@@ -45,7 +45,7 @@
         }
     ],
     "seasonRecord": {
-        "wins": 5,
+        "wins": 6,
         "losses": 0
     }
 },
