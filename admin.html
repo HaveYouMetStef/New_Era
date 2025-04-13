@@ -1,0 +1,50 @@
+<!-- admin.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Portal - New Era</title>
+  <link rel="stylesheet" href="resources/css/style.css>
+</head>
+<body>
+  <section class="admin-portal">
+    <h1>New Era Admin Portal</h1>
+
+    <form id="gameForm">
+      <h2>Update Game Score</h2>
+      <label>Date: <input type="date" name="date" required></label>
+      <label for="opponent">Opponent:
+        <select name="opponent" id="opponentSelect" required>
+          <option value="">Select Opponent</option>
+          <!-- Options will be populated by JS -->
+        </select>
+      </label>
+      <label for="customOpponent">Or enter custom opponent:
+        <input type="text" id="customOpponent" name="customOpponent" placeholder="Enter opponent name">
+      </label>
+      <label>Our Score: <input type="number" name="ourScore" required></label>
+      <label>Their Score: <input type="number" name="theirScore" required></label>
+      <button type="submit">Add Game</button>
+    </form>
+
+    <form id="playerStatsForm">
+      <h2>Update Player Stats</h2>
+      <label for="playerName">Player:
+        <select name="playerName" id="playerSelect" required>
+          <option value="">Select Player</option>
+          <!-- JavaScript will populate these options -->
+        </select>
+      </label>
+      <label>Touchdowns: <input type="number" name="Touchdowns"></label>
+      <label>Sacks: <input type="number" name="receptions"></label>
+      <label>Interceptions: <input type="number" name="receptions"></label>
+      <label>Passing Touchdowns: <input type="number" name="touchdowns"></label>
+      <label>Throwing Interceptions: <input type="number" name="receptions"></label>
+      <button type="submit">Add Stats</button>
+    </form>
+  </section>
+
+  <script src="resources/data/admin.js"></script>
+</body>
+</html>
