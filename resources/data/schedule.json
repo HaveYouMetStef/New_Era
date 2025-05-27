@@ -1,4 +1,23 @@
-{    
+{   "Summer2025": {
+    "games": [
+        {
+            "date": "05-20-2025",
+            "opponent": "End Zone Energy",
+            "score": "46 - 6",
+            "result": "Win"
+        },
+        {
+            "date": "05-27-2025",
+            "opponent": "Rustin Toe Taps",
+            "score": "0 - 0",
+            "result": "upcoming"
+        }
+    ],
+    "seasonRecord": {
+        "wins": 1,
+        "losses": 0
+    }
+}, 
     "Spring2025": {
     "games": [
         {
@@ -38,14 +57,26 @@
             "result": "Win"
         },
         {
-            "date": "04-16-2025",
+            "date": "04-15-2025",
             "opponent": "Balls Deep",
             "score": "48-0",
+            "result": "Win"
+        },
+        {
+            "date": "05-13-2025",
+            "opponent": "Auto Drafted",
+            "score": "26-13",
+            "result": "Win"
+        },
+        {
+            "date": "05-13-2025",
+            "opponent": "No Fly Zone",
+            "score": "14-0",
             "result": "Win"
         }
     ],
     "seasonRecord": {
-        "wins": 7,
+        "wins": 9,
         "losses": 0
     }
 },

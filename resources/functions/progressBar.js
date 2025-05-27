@@ -8,7 +8,7 @@ const totalGames = parseInt(seasonProgressSection.getAttribute('data-total-games
 
 // Fetch the number of games played from your dataset
 // For now, set a static number as an example:
-const gamesPlayed = 2; // Update this variable weekly or make it dynamically fetchable
+const gamesPlayed = 1; // Update this variable weekly or make it dynamically fetchable
 
 // Calculate the progress percentage
 const updateProgressBar = (gamesPlayed) => {
@@ -26,10 +26,10 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => {
             console.log("Fetched data:", data); // Log the fetched data structure
-            if (!data.Spring2025 || !data.Spring2025.games) throw new Error("Games data not found in JSON.");
+            if (!data.Summer2025 || !data.Summer2025.games) throw new Error("Games data not found in JSON.");
 
             // Filter games that are marked as completed
-            const gamesPlayed = data.Spring2025.games.filter(game => game.result !== "upcoming").length;
+            const gamesPlayed = data.Summer2025.games.filter(game => game.result !== "upcoming").length;
 
             // Call function to update the progress bar
             updateProgressBar(gamesPlayed);

@@ -21,6 +21,7 @@
         <h2>Player Stats</h2>
         <label for="season-select">Select Season:</label>
         <select id="season-select">
+            <option value="summer_2025">Summer 2025</option>
             <option value="spring_2025">Spring 2025</option>
             <option value="fall_2024">Fall 2024</option>
             <option value="summer_2024">Summer 2024</option>
@@ -36,6 +37,7 @@
                     <th>Extra Points</th>
                     <th>Points by Player</th>
                     <th>Interceptions</th>
+                    <th>Sacks</th>
                 </tr>
             </thead>
             <tbody id="player-stats-body">
@@ -87,6 +89,7 @@
                                 <td>${seasonData.extra_points}</td>
                                 <td>${seasonData.points_by_player}</td>
                                 <td>${seasonData.interceptions}</td>
+                                <td>${seasonData.sacks}</td>
                             `;
                             playerStatsBody.appendChild(playerRow);
                         }

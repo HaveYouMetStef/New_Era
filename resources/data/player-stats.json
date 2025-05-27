@@ -19,9 +19,16 @@
         },
         "spring_2025": {
           "touchdowns": "4",
-          "extra_points": "0",
-          "points_by_player": "24",
-          "interceptions": "1"
+          "extra_points": "1",
+          "points_by_player": "25",
+          "interceptions": "3"
+        },
+        "summer_2025": {
+          "touchdowns": 1,
+          "extra_points": 1,
+          "points_by_player": 7,
+          "interceptions": 0,
+          "sacks": 0
         }
       }
     },
@@ -47,6 +54,13 @@
           "extra_points": "0",
           "points_by_player": "6",
           "interceptions": "0"
+        },
+        "summer_2025": {
+          "touchdowns": 0,
+          "extra_points": 0,
+          "points_by_player": 0,
+          "interceptions": 0,
+          "sacks": 0
         }
       }
     },
@@ -72,6 +86,13 @@
           "extra_points": "3",
           "points_by_player": "39",
           "interceptions": "1"
+        },
+        "summer_2025": {
+          "touchdowns": 0,
+          "extra_points": 0,
+          "points_by_player": 0,
+          "interceptions": 0,
+          "sacks": 0
         }
       }
     },
@@ -97,6 +118,13 @@
           "extra_points": "5",
           "points_by_player": "30",
           "interceptions": "0"
+        },
+        "summer_2025": {
+          "touchdowns": 0,
+          "extra_points": 0,
+          "points_by_player": 0,
+          "interceptions": 0,
+          "sacks": 0
         }
       }
     },
@@ -118,10 +146,17 @@
           "interceptions": "0"
         },
         "spring_2025": {
-          "touchdowns": "1",
+          "touchdowns": "2",
           "extra_points": "1",
-          "points_by_player": "7",
+          "points_by_player": "13",
           "interceptions": "0"
+        },
+        "summer_2025": {
+          "touchdowns": 2,
+          "extra_points": 0,
+          "points_by_player": 12,
+          "interceptions": 0,
+          "sacks": 0
         }
       }
     },
@@ -147,6 +182,13 @@
           "extra_points": "1",
           "points_by_player": "37",
           "interceptions": "1"
+        },
+        "summer_2025": {
+          "touchdowns": 1,
+          "extra_points": 1,
+          "points_by_player": 7,
+          "interceptions": 0,
+          "sacks": 0
         }
       }
     },
@@ -260,6 +302,13 @@
           "extra_points": "0",
           "points_by_player": "0",
           "interceptions": "2"
+        },
+        "summer_2025": {
+          "touchdowns": 0,
+          "extra_points": 0,
+          "points_by_player": 0,
+          "interceptions": 0,
+          "sacks": 0
         }
       }
     },
@@ -281,10 +330,17 @@
           "interceptions": "0"
         },
         "spring_2025": {
-          "touchdowns": "2",
-          "extra_points": "4",
-          "points_by_player": "16",
+          "touchdowns": "5",
+          "extra_points": "5",
+          "points_by_player": "35",
           "interceptions": "0"
+        },
+        "summer_2025": {
+          "touchdowns": 1,
+          "extra_points": 1,
+          "points_by_player": 7,
+          "interceptions": 0,
+          "sacks": 0
         }
       }
     },
@@ -310,6 +366,13 @@
           "extra_points": "1",
           "points_by_player": "43",
           "interceptions": "1"
+        },
+        "summer_2025": {
+          "touchdowns": 1,
+          "extra_points": 1,
+          "points_by_player": 7,
+          "interceptions": 0,
+          "sacks": 0
         }
       }
     },
@@ -356,10 +419,17 @@
           "interceptions": "0"
         },
         "spring_2025": {
-          "touchdowns": "2",
-          "extra_points": "7",
-          "points_by_player": "19",
+          "touchdowns": "4",
+          "extra_points": "9",
+          "points_by_player": "33",
           "interceptions": "2"
+        },
+        "summer_2025": {
+          "touchdowns": 1,
+          "extra_points": 2,
+          "points_by_player": 8,
+          "interceptions": 0,
+          "sacks": 0
         }
       }
     },
@@ -373,6 +443,27 @@
           "extra_points": "0",
           "points_by_player": "6",
           "interceptions": "1"
+        },
+        "summer_2025": {
+          "touchdowns": 0,
+          "extra_points": 0,
+          "points_by_player": 0,
+          "interceptions": 0,
+          "sacks": 0
+        }
+      }
+    }, 
+    {
+      "name": "Dustin Sablatura",
+      "position": "Rusher/WR",
+      "number": "TBD",
+      "stats": {
+        "summer_2025": {
+          "touchdowns": 0,
+          "extra_points": 0,
+          "points_by_player": 0,
+          "interceptions": 0,
+          "sacks": 5
         }
       }
     }
