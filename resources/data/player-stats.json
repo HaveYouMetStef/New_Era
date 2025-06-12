@@ -24,9 +24,9 @@
           "interceptions": "3"
         },
         "summer_2025": {
-          "touchdowns": 1,
+          "touchdowns": 2,
           "extra_points": 2,
-          "points_by_player": 8,
+          "points_by_player": 14,
           "interceptions": 0,
           "sacks": 0
         }
@@ -88,9 +88,9 @@
           "interceptions": "1"
         },
         "summer_2025": {
-          "touchdowns": 0,
-          "extra_points": 0,
-          "points_by_player": 0,
+          "touchdowns": 2,
+          "extra_points": 2,
+          "points_by_player": 14,
           "interceptions": 0,
           "sacks": 0
         }
@@ -120,10 +120,10 @@
           "interceptions": "0"
         },
         "summer_2025": {
-          "touchdowns": 0,
-          "extra_points": 0,
-          "points_by_player": 0,
-          "interceptions": 0,
+          "touchdowns": 1,
+          "extra_points": 3,
+          "points_by_player": 9,
+          "interceptions": 2,
           "sacks": 0
         }
       }
@@ -153,8 +153,8 @@
         },
         "summer_2025": {
           "touchdowns": 2,
-          "extra_points": 0,
-          "points_by_player": 12,
+          "extra_points": 2,
+          "points_by_player": 14,
           "interceptions": 1,
           "sacks": 0
         }
@@ -187,7 +187,7 @@
           "touchdowns": 2,
           "extra_points": 2,
           "points_by_player": 14,
-          "interceptions": 0,
+          "interceptions": 1,
           "sacks": 0
         }
       }
@@ -446,8 +446,8 @@
         },
         "summer_2025": {
           "touchdowns": 0,
-          "extra_points": 0,
-          "points_by_player": 0,
+          "extra_points": 2,
+          "points_by_player": 2,
           "interceptions": 0,
           "sacks": 0
         }
@@ -459,11 +459,39 @@
       "number": "TBD",
       "stats": {
         "summer_2025": {
-          "touchdowns": 0,
+          "touchdowns": 1,
           "extra_points": 0,
-          "points_by_player": 0,
+          "points_by_player": 6,
           "interceptions": 0,
-          "sacks": 7
+          "sacks": 8
+        }
+      }
+    }, 
+    {
+      "name": "Lorel Morton",
+      "position": "Safety/WR",
+      "number": "TBD",
+      "stats": {
+        "summer_2025": {
+          "touchdowns": 1,
+          "extra_points": 0,
+          "points_by_player": 6,
+          "interceptions": 0,
+          "sacks": 0
+        }
+      }
+    }, 
+    {
+      "name": "Jimmy",
+      "position": "LB/Lineman",
+      "number": "TBD",
+      "stats": {
+        "summer_2025": {
+          "touchdowns": 1,
+          "extra_points": 0,
+          "points_by_player": 6,
+          "interceptions": 1,
+          "sacks": 0
         }
       }
     }
