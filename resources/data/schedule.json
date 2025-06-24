@@ -8,7 +8,7 @@
         },
         {
             "date": "05-27-2025",
-            "opponent": "Rustin Toe Taps",
+            "opponent": "Rustic Toe Taps",
             "score": "26 - 6",
             "result": "Win"
         },
@@ -23,11 +23,23 @@
             "opponent": "End Zone Energy",
             "score": "30 - 0",
             "result": "Win" 
-        }
-    ],
+        },
+        {
+            "date": "06-17-2025",
+             "opponent": "Rustic Toe Taps",
+             "score": "13 - 14",
+             "result": "Loss" 
+         },
+         {
+             "date": "06-24-2025",
+              "opponent": "Too Haute To Handle",
+              "score": "0 - 0",
+              "result": "upcoming" 
+          }
+        ],
     "seasonRecord": {
         "wins": 4,
-        "losses": 0
+        "losses": 1
     }
 }, 
     "Spring2025": {
