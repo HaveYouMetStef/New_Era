@@ -24,10 +24,10 @@
           "interceptions": "3"
         },
         "summer_2025": {
-          "touchdowns": 3,
-          "extra_points": 2,
-          "points_by_player": 20,
-          "interceptions": 0,
+          "touchdowns": 4,
+          "extra_points": 3,
+          "points_by_player": 27,
+          "interceptions": 1,
           "sacks": 0
         }
       }
@@ -57,8 +57,8 @@
         },
         "summer_2025": {
           "touchdowns": 0,
-          "extra_points": 0,
-          "points_by_player": 0,
+          "extra_points": 1,
+          "points_by_player": 1,
           "interceptions": 0,
           "sacks": 0
         }
@@ -152,10 +152,10 @@
           "interceptions": "0"
         },
         "summer_2025": {
-          "touchdowns": 2,
+          "touchdowns": 3,
           "extra_points": 3,
-          "points_by_player": 15,
-          "interceptions": 1,
+          "points_by_player": 21,
+          "interceptions": 2,
           "sacks": 0
         }
       }
@@ -184,10 +184,10 @@
           "interceptions": "1"
         },
         "summer_2025": {
-          "touchdowns": 2,
+          "touchdowns": 3,
           "extra_points": 2,
-          "points_by_player": 14,
-          "interceptions": 1,
+          "points_by_player": 20,
+          "interceptions": 2,
           "sacks": 0
         }
       }
@@ -336,9 +336,9 @@
           "interceptions": "0"
         },
         "summer_2025": {
-          "touchdowns": 2,
-          "extra_points": 1,
-          "points_by_player": 13,
+          "touchdowns": 4,
+          "extra_points": 6,
+          "points_by_player": 30,
           "interceptions": 0,
           "sacks": 0
         }
@@ -368,10 +368,10 @@
           "interceptions": "1"
         },
         "summer_2025": {
-          "touchdowns": 3,
+          "touchdowns": 4,
           "extra_points": 1,
-          "points_by_player": 19,
-          "interceptions": 0,
+          "points_by_player": 25,
+          "interceptions": 1,
           "sacks": 0
         }
       }
@@ -448,7 +448,7 @@
           "touchdowns": 0,
           "extra_points": 2,
           "points_by_player": 2,
-          "interceptions": 0,
+          "interceptions": 1,
           "sacks": 0
         }
       }
@@ -459,11 +459,11 @@
       "number": "TBD",
       "stats": {
         "summer_2025": {
-          "touchdowns": 1,
+          "touchdowns": 2,
           "extra_points": 0,
-          "points_by_player": 6,
+          "points_by_player": 12,
           "interceptions": 0,
-          "sacks": 8
+          "sacks": 10
         }
       }
     }, 
@@ -487,10 +487,10 @@
       "number": "TBD",
       "stats": {
         "summer_2025": {
-          "touchdowns": 1,
-          "extra_points": 0,
-          "points_by_player": 6,
-          "interceptions": 1,
+          "touchdowns": 2,
+          "extra_points": 1,
+          "points_by_player": 13,
+          "interceptions": 2,
           "sacks": 0
         }
       }
