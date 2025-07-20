@@ -41,11 +41,23 @@
                  "opponent": "Too Haute To Handle",
                  "score": "19 - 7",
                  "result": "Loss" 
+             }, 
+             {
+               "date": "07-15-2025",
+                 "opponent": "End Zone Energy",
+                 "score": "21 - 0",
+                 "result": "Win"  
+             },
+             {
+                "date": "07-15-2025",
+                 "opponent": "Too Haute To Handle",
+                 "score": "21 - 19",
+                 "result": "Loss"  
              }
             ],
     "seasonRecord": {
-        "wins": 5,
-        "losses": 2
+        "wins": 6,
+        "losses": 3
     }
 }, 
     "Spring2025": {
