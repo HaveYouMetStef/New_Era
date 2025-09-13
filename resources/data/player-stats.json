@@ -30,6 +30,13 @@
           "interceptions": 2,
           "sacks": 0
         }
+      },
+      "fall_2025": {
+        "touchdowns": 1,
+          "extra_points": 0,
+          "points_by_player": 6,
+          "interceptions": 1,
+          "sacks": 0
       }
     },
     {
@@ -61,6 +68,13 @@
           "points_by_player": 1,
           "interceptions": 0,
           "sacks": 0
+        },
+        "fall_2025": {
+          "touchdowns": 0,
+            "extra_points": 0,
+            "points_by_player": 0,
+            "interceptions": 0,
+            "sacks": 0
         }
       }
     },
@@ -93,6 +107,13 @@
           "points_by_player": 14,
           "interceptions": 0,
           "sacks": 0
+        },
+        "fall_2025": {
+          "touchdowns": 1,
+            "extra_points": 1,
+            "points_by_player": 7,
+            "interceptions": 0,
+            "sacks": 0
         }
       }
     },
@@ -125,6 +146,13 @@
           "points_by_player": 21,
           "interceptions": 2,
           "sacks": 0
+        },
+        "fall_2025": {
+          "touchdowns": 0,
+            "extra_points": 0,
+            "points_by_player": 0,
+            "interceptions": 0,
+            "sacks": 0
         }
       }
     },
@@ -157,6 +185,13 @@
           "points_by_player": 21,
           "interceptions": 2,
           "sacks": 0
+        },
+        "fall_2025": {
+          "touchdowns": 0,
+            "extra_points": 0,
+            "points_by_player": 0,
+            "interceptions": 0,
+            "sacks": 0
         }
       }
     },
@@ -189,6 +224,13 @@
           "points_by_player": 26,
           "interceptions": 2,
           "sacks": 0
+        },
+        "fall_2025": {
+          "touchdowns": 1,
+            "extra_points": 3,
+            "points_by_player": 9,
+            "interceptions": 0,
+            "sacks": 0
         }
       }
     },
@@ -309,6 +351,13 @@
           "points_by_player": 0,
           "interceptions": 0,
           "sacks": 0
+        },
+        "fall_2025": {
+          "touchdowns": 0,
+            "extra_points": 0,
+            "points_by_player": 0,
+            "interceptions": 1,
+            "sacks": 0
         }
       }
     },
@@ -341,6 +390,13 @@
           "points_by_player": 32,
           "interceptions": 1,
           "sacks": 0
+        },
+        "fall_2025": {
+          "touchdowns": 0,
+            "extra_points": 1,
+            "points_by_player": 1,
+            "interceptions": 0,
+            "sacks": 0
         }
       }
     },
@@ -373,6 +429,13 @@
           "points_by_player": 37,
           "interceptions": 1,
           "sacks": 0
+        },
+        "fall_2025": {
+          "touchdowns": 1,
+            "extra_points": 0,
+            "points_by_player": 6,
+            "interceptions": 1,
+            "sacks": 0
         }
       }
     },
@@ -398,6 +461,13 @@
           "extra_points": "2",
           "points_by_player": "8",
           "interceptions": "0"
+        },
+        "fall_2025": {
+          "touchdowns": 2,
+            "extra_points": 0,
+            "points_by_player": 12,
+            "interceptions": 0,
+            "sacks": 0
         }
       }
     },
@@ -430,6 +500,13 @@
           "points_by_player": 8,
           "interceptions": 0,
           "sacks": 0
+        },
+        "fall_2025": {
+          "touchdowns": 0,
+            "extra_points": 0,
+            "points_by_player": 0,
+            "interceptions": 0,
+            "sacks": 0
         }
       }
     },
@@ -450,6 +527,13 @@
           "points_by_player": 2,
           "interceptions": 2,
           "sacks": 0
+        },
+        "fall_2025": {
+          "touchdowns": 0,
+            "extra_points": 0,
+            "points_by_player": 0,
+            "interceptions": 0,
+            "sacks": 0
         }
       }
     }, 
@@ -464,6 +548,13 @@
           "points_by_player": 12,
           "interceptions": 0,
           "sacks": 11
+        },
+        "fall_2025": {
+          "touchdowns": 0,
+            "extra_points": 0,
+            "points_by_player": 0,
+            "interceptions": 0,
+            "sacks": 0
         }
       }
     }, 
@@ -483,7 +574,7 @@
     }, 
     {
       "name": "Jimmy",
-      "position": "LB/Lineman",
+      "position": "Corner/WR",
       "number": "TBD",
       "stats": {
         "summer_2025": {
@@ -492,6 +583,27 @@
           "points_by_player": 13,
           "interceptions": 2,
           "sacks": 0
+        },
+        "fall_2025": {
+          "touchdowns": 0,
+            "extra_points": 0,
+            "points_by_player": 0,
+            "interceptions": 0,
+            "sacks": 0
+        }
+      }
+    },
+    {
+      "name": "Tyler Newton",
+      "position": "Rusher/WR",
+      "number": "TBD",
+      "stats": {
+        "fall_2025": {
+          "touchdowns": 1,
+            "extra_points": 0,
+            "points_by_player": 0,
+            "interceptions": 0,
+            "sacks": 0
         }
       }
     }

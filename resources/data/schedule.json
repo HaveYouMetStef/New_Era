@@ -1,4 +1,54 @@
-{   "Summer2025": {
+{ "Fall2025": {
+    "games":[
+        {
+           "date": "09-09-2025",
+            "opponent": "Hensley House",
+            "score": "48 - 0",
+            "result": "Win" 
+        },
+        {
+           "date": "09-16-2025",
+            "opponent": "No Punt Intended",
+            "score": "0 - 0",
+            "result": "upcoming" 
+        },
+        {
+           "date": "09-23-2025",
+            "opponent": "Tua Legit To Quit",
+            "score": "0 - 0",
+            "result": "upcoming" 
+        },
+        {
+           "date": "10-14-2025",
+            "opponent": "Immaculate ballers",
+            "score": "0 - 0",
+            "result": "upcoming" 
+        },
+        {
+           "date": "10-21-2025",
+            "opponent": "No Fly Zone",
+            "score": "0 - 0",
+            "result": "upcoming" 
+        },
+        {
+           "date": "10-28-2025",
+            "opponent": "Hensley House",
+            "score": "0 - 0",
+            "result": "upcoming" 
+        },
+        {
+           "date": "11-04-2025",
+            "opponent": "No Punt Intended",
+            "score": "0 - 0",
+            "result": "upcoming" 
+        }
+    ],
+    "seasonRecord": {
+        "wins": 1,
+        "losses": 0
+    }
+},
+   "Summer2025": {
     "games": [
         {
             "date": "05-20-2025",

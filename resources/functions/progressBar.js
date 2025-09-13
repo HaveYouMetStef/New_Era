@@ -4,7 +4,7 @@ const progressText = document.querySelector('.progress-text');
 
 // Set up the current progress (games played) and total games
 const seasonProgressSection = document.getElementById('season-progress');
-const totalGames = parseInt(seasonProgressSection.getAttribute('data-total-games'), 10);
+const totalGames = parseInt(seasonProgressSection.getAttribute('data-total-games'), 7);
 
 // Fetch the number of games played from your dataset
 // For now, set a static number as an example:
@@ -26,10 +26,10 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => {
             console.log("Fetched data:", data); // Log the fetched data structure
-            if (!data.Summer2025 || !data.Summer2025.games) throw new Error("Games data not found in JSON.");
+            if (!data.Fall2025 || !data.Fall2025.games) throw new Error("Games data not found in JSON.");
 
             // Filter games that are marked as completed
-            const gamesPlayed = data.Summer2025.games.filter(game => game.result !== "upcoming").length;
+            const gamesPlayed = data.Fall2025.games.filter(game => game.result !== "upcoming").length;
 
             // Call function to update the progress bar
             updateProgressBar(gamesPlayed);
