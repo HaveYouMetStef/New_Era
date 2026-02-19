@@ -1,4 +1,48 @@
-{ "Fall2025": {
+{ "Spring2026": {
+    "games": [
+        {
+            "date": "02-17-2026",
+             "opponent": "Practice Squad",
+             "score": "57 - 0",
+             "result": "Win" 
+         },
+         {
+            "date": "02-17-2026",
+             "opponent": "ACL All-Pros",
+             "score": "38 - 0",
+             "result": "Win" 
+         },
+            {
+            "date": "02-24-2026",
+             "opponent": "Zilker Zone",
+             "score": "0 - 0",
+             "result": "upcoming" 
+            },
+            {
+            "date": "03-03-2026",
+             "opponent": "Lil Dawgs",
+             "score": "0 - 0",
+             "result": "upcoming" 
+            },
+            {
+                "date": "03-10-2026",
+                 "opponent": "Austin Armadillos",
+                 "score": "0 - 0",
+                 "result": "upcoming" 
+                },
+                {
+                "date": "03-17-2025",
+                "opponent": "The Beavers",
+                "score": "0 - 0",
+                "result": "upcoming" 
+            }
+    ],
+    "seasonRecord": {
+        "wins": 2,
+        "losses": 0
+    }
+},
+    "Fall2025": {
     "games":[
         {
            "date": "09-09-2025",
@@ -15,36 +59,48 @@
         {
            "date": "09-23-2025",
             "opponent": "Tua Legit To Quit",
-            "score": "0 - 0",
-            "result": "upcoming" 
+            "score": "18 - 7",
+            "result": "Win" 
         },
         {
            "date": "10-14-2025",
             "opponent": "Immaculate ballers",
-            "score": "0 - 0",
-            "result": "upcoming" 
+            "score": "36 - 0",
+            "result": "Win" 
         },
         {
            "date": "10-21-2025",
             "opponent": "No Fly Zone",
-            "score": "0 - 0",
-            "result": "upcoming" 
+            "score": "13 - 5",
+            "result": "Win" 
         },
         {
            "date": "10-28-2025",
             "opponent": "Hensley House",
-            "score": "0 - 0",
-            "result": "upcoming" 
+            "score": "36 - 0",
+            "result": "Win" 
         },
         {
            "date": "11-04-2025",
             "opponent": "No Punt Intended",
-            "score": "0 - 0",
-            "result": "upcoming" 
+            "score": "40 - 0",
+            "result": "Win" 
+        },
+        {
+            "date": "11-25-2025",
+            "opponent": "Tua Legit To Quit",
+            "score": "41 - 0",
+            "result": "Win" 
+        },
+        {
+            "date": "11-25-2025",
+            "opponent": "No Fly Zone",
+            "score": "20 - 19",
+            "result": "Win"    
         }
     ],
     "seasonRecord": {
-        "wins": 2,
+        "wins": 9,
         "losses": 0
     }
 },
