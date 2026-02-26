@@ -132,5 +132,12 @@
             loadPassingTouchdownsForSeason(selectedSeason);
         });
     </script>
+
+      <!-- firebase script -->
+  <script type="module">
+    import { db } from "./firebase.js";
+  
+    console.log("Firebase connected:", db);
+  </script>
 </body>
 </html>
