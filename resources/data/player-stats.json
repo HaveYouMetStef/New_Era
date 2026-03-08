@@ -30,7 +30,7 @@
           "interceptions": 2,
           "sacks": 0
         }
-      },
+      ,
       "fall_2025": {
         "touchdowns": 1,
           "extra_points": 1,
@@ -45,7 +45,8 @@
           "interceptions": 0,
           "sacks": 0
       }
-    },
+    }
+  },
     {
       "name": "Jake Kyte",
       "position": "LB/Lineman/Captain",
