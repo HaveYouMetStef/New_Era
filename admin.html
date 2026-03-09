@@ -1,0 +1,32 @@
+<section id="admin-portal">
+  <h2>New Era Admin Portal</h2>
+
+  <!-- Select Current Game -->
+   <body>
+  <label for="games">Select Game:</label>
+  <select id="games">
+    <!-- Options will be pulled dynamically from schedule JSON / Firebase -->
+  </select>
+
+  <!-- Team Score -->
+  <div>
+    <label for="team-score">New Era Score:</label>
+    <input type="number" id="team-score" min="0" value="0">
+  </div>
+
+  <div>
+    <label for="opponent-score">Opponent Score:</label>
+    <input type="number" id="opponent-score" min="0" value="0">
+  </div>
+
+  <!-- Player Stats -->
+  <h3>Update Player Stats</h3>
+  <div id="player-stats-container">
+    <!-- This will be dynamically populated with dropdowns for player names and stat inputs -->
+  </div>
+
+  <button id="submit-stats">Submit Updates</button>
+  <script type="module" src="./resources/js/admin.js"></script>
+</body>
+
+</section>
