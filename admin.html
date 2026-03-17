@@ -19,6 +19,53 @@
     <input type="number" id="opponent-score" min="0" value="0">
   </div>
 
+  <h3>Passing Touchdown</h3>
+
+<label>Passer:</label>
+<select id="passer-select">
+  <option value="">Select Passer</option>
+</select>
+
+<label>Receiver:</label>
+<select id="receiver-select">
+  <option value="">Select Receiver</option>
+</select>
+
+<button onclick="handleAddPassingTD()">Add Passing TD</button>
+
+  <h3>Rushing Touchdown</h3>
+  <label>Player:</label>
+  <select id="rush-player-select">
+    <option value="">Select Player</option>
+  </select>
+  <button onclick="handleAddRushingTD()">Add Rushing TD</button>
+
+  <h3>Extra Point</h3>
+  <label>Player:</label>
+  <select id="xp-player-select">
+    <option value="">Select Player</option>
+  </select>
+  <button onclick="handleAddXP()">Add XP</button>
+
+  <h3>Interception</h3>
+  <label>Player:</label>
+  <select id="int-player-select">
+    <option value="">Select Player</option>
+  </select>
+  <button onclick="handleAddINT()">Add INT</button>
+
+  <h3>Sack</h3>
+  <label>Player:</label>
+  <select id="sack-player-select">
+    <option value="">Select Player</option>
+  </select>
+  <button onclick="handleAddSack()">Add Sack</button>
+
+  <h3>Opponent Score</h3>
+  <label>Points:</label>
+  <input type="number" id="opponent-points" min="1" value="6">
+  <button onclick="handleOpponentScore()">Add Opponent Score</button>
+
   <!-- Player Stats -->
   <h3>Update Player Stats</h3>
   <div id="player-stats-container">
@@ -27,6 +74,7 @@
 
   <button id="submit-stats">Submit Updates</button>
   <script type="module" src="./resources/js/admin.js"></script>
+
 </body>
 
 </section>
