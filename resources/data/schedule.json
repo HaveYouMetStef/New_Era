@@ -33,12 +33,12 @@
                 {
                 "date": "03-17-2026",
                 "opponent": "The Beavers",
-                "score": "0 - 0",
-                "result": "upcoming" 
+                "score": "55 - 0",
+                "result": "Win" 
             }
     ],
     "seasonRecord": {
-        "wins": 5,
+        "wins": 6,
         "losses": 0
     }
 },

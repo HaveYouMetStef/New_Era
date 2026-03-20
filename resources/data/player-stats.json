@@ -38,9 +38,9 @@
           "sacks": 0
       },
       "spring_2026": {
-        "touchdowns": 1,
-          "extra_points": 0,
-          "points_by_player": 6,
+        "touchdowns": 2,
+          "extra_points": 3,
+          "points_by_player": 15,
           "interceptions": 0,
           "sacks": 0
       }
@@ -474,8 +474,8 @@
         },
         "spring_2026": {
           "touchdowns": 1,
-            "extra_points": 3,
-            "points_by_player": 9,
+            "extra_points": 5,
+            "points_by_player": 11,
             "interceptions": 1,
             "sacks": 0
         }
@@ -558,9 +558,9 @@
             "sacks": 0
         },
         "spring_2026": {
-          "touchdowns": 2,
+          "touchdowns": 5,
             "extra_points": 1,
-            "points_by_player": 13,
+            "points_by_player": 31,
             "interceptions": 1,
             "sacks": 0
         }
@@ -593,9 +593,9 @@
         }, 
         "spring_2026": {
           "touchdowns": 3,
-            "extra_points": 3,
-            "points_by_player": 21,
-            "interceptions": 0,
+            "extra_points": 4,
+            "points_by_player": 22,
+            "interceptions": 1,
             "sacks": 0
         }
       }
@@ -616,6 +616,13 @@
           "touchdowns": 0,
             "extra_points": 0,
             "points_by_player": 0,
+            "interceptions": 0,
+            "sacks": 1
+        },
+        "spring_2026": {
+          "touchdowns": 1,
+            "extra_points": 1,
+            "points_by_player":7,
             "interceptions": 0,
             "sacks": 1
         }
@@ -676,10 +683,10 @@
             "sacks": 0
         },
         "spring_2026": {
-          "touchdowns": 4,
+          "touchdowns": 7,
             "extra_points": 3,
-            "points_by_player": 27,
-            "interceptions": 0,
+            "points_by_player": 45,
+            "interceptions": 1,
             "sacks": 1
         }
       }
