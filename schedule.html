@@ -43,7 +43,8 @@
         </table>
     </div>
     
-<script>
+    <div id="schedule-container"></div>
+<!-- <script>
 
 fetch('resources/data/schedule.json')
     .then(response => response.json())
@@ -98,7 +99,7 @@ fetch('resources/data/schedule.json')
     });
 
     
-</script>
+</script> -->
 
 <!-- //Firebase -->
 <script type="module">
@@ -106,6 +107,8 @@ fetch('resources/data/schedule.json')
   
     console.log("Firebase connected:", db);
   </script>
+<script type="module" src="resources/js/schedule.js"></script>
+
 
 </body>
 </html>
