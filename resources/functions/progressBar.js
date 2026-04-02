@@ -4,7 +4,7 @@ const progressText = document.querySelector('.progress-text');
 
 // Set up the current progress (games played) and total games
 const seasonProgressSection = document.getElementById('season-progress');
-const totalGames = parseInt(seasonProgressSection.getAttribute('data-total-games'), 6);
+const totalGames = parseInt(seasonProgressSection.getAttribute('data-total-games'), 8);
 
 // Fetch the number of games played from your dataset
 // For now, set a static number as an example:

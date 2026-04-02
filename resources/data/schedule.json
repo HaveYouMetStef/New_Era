@@ -35,10 +35,22 @@
                 "opponent": "The Beavers",
                 "score": "55 - 0",
                 "result": "Win" 
-            }
+            },
+        {
+            "date": "03-31-2026",
+            "opponent": "Any Given Sunday",
+            "score": "40 - 0",
+            "result": "Win"    
+        },
+        {
+            "date": "03-31-2026",
+            "opponent": "Austin Armadillos",
+            "score": "27 - 0",
+            "result": "Win"    
+        }
     ],
     "seasonRecord": {
-        "wins": 6,
+        "wins": 8,
         "losses": 0
     }
 },
